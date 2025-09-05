@@ -1,9 +1,13 @@
 [project]
 name = "data-contracts-management"
 version = "0.1.0"
-description = "Add your description here"
+description = "Data contracts management system with schema validation and fake data generation"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "pydantic>=2.11.7",
+    "faker>=30.8.2",
+    "pandas>=2.2.3",
+    "pandera>=0.20.4",
+    "loguru>=0.7.2",
 ]

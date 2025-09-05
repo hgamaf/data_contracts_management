@@ -1,0 +1,9 @@
+2025-09-05 07:56:34 | INFO     | validator:__init__:22 - DataValidator initialized
+2025-09-05 07:56:34 | INFO     | validator:convert_schema_to_pandera:48 - Converting schema 'customer' to Pandera format
+2025-09-05 07:56:34 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: customer_id (DataType.INTEGER)
+2025-09-05 07:56:34 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: not_null = True
+2025-09-05 07:56:34 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: unique = True
+2025-09-05 07:56:34 | WARNING  | validator:_convert_validation_rules:117 - Unique constraint for field will be checked separately
+2025-09-05 07:56:34 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for customer_id: dtype=int64, nullable=False, checks=1
+2025-09-05 07:56:34 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: first_name (DataType.STRING)
+2025-09-05 07:56:34 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: min_length = 2
