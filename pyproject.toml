@@ -1,10 +1,7 @@
 [project]
 name = "data-contracts-management"
 version = "0.1.0"
-description = "Sistema simples de contratos de dados com Great Expectations"
+description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "great-expectations>=0.18.0",
-    "pandas>=2.1.0"
-]
+dependencies = []
