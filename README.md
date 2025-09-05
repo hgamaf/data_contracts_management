@@ -1,35 +1,38 @@
-# Data Contracts Management com OpenMetadata
+# Data Contracts Management
 
-Sistema para gerenciar contratos de dados usando OpenMetadata como interface principal.
+Sistema simples para gerenciar contratos de dados usando Great Expectations com UI nativa.
 
-## Setup Rápido
+## 🚀 Setup Super Simples
 
-1. **Instalar OpenMetadata via Docker:**
 ```bash
-# Baixar e rodar OpenMetadata
-docker run -d -p 8585:8585 --name openmetadata openmetadata/server:latest
+# 1. Instalar dependências
+uv sync
+
+# 2. Inicializar Great Expectations
+uv run great_expectations init
+
+# 3. Criar dados de exemplo
+uv run python main.py
+
+# 4. Ver UI no navegador
+uv run great_expectations docs build --site-name local
 ```
 
-2. **Instalar dependências:**
-```bash
-pip install -e .
-```
+## ✅ O que você ganha
 
-3. **Acessar a interface:**
-- OpenMetadata UI: http://localhost:8585
-- Login: admin / admin
+- **UI Web Nativa** - Interface automática do Great Expectations
+- **Validação de Dados** - Schemas e regras de qualidade
+- **Relatórios Visuais** - Dashboards automáticos
+- **Documentação** - Docs geradas automaticamente
 
-## O que você pode fazer
+## 📊 Acesso
 
-✅ **Interface completa** - OpenMetadata já vem com UI pronta  
-✅ **Gerenciar schemas** - Definir estruturas de dados  
-✅ **Validação de qualidade** - Great Expectations integrado  
-✅ **Linhagem de dados** - Rastrear origem e destino  
-✅ **Governança** - Políticas e ownership  
+Após executar os comandos acima:
+- **UI Principal**: http://localhost:8080
+- **Documentação**: Gerada automaticamente
 
-## Próximos passos
+## 💡 Uso
 
-1. Acesse http://localhost:8585
-2. Crie seus datasets e schemas
-3. Configure validações de qualidade
-4. Use os scripts deste projeto para automação
+1. Coloque seus arquivos CSV/JSON na pasta `data/`
+2. Execute `uv run python main.py` para validar
+3. Veja os resultados na UI web

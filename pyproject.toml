@@ -1,12 +1,10 @@
 [project]
 name = "data-contracts-management"
 version = "0.1.0"
-description = "Gerenciamento de contratos de dados usando OpenMetadata"
+description = "Sistema simples de contratos de dados com Great Expectations"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "openmetadata-ingestion>=1.2.0",
     "great-expectations>=0.18.0",
-    "pandas>=2.1.0",
-    "pyyaml>=6.0.1"
+    "pandas>=2.1.0"
 ]
