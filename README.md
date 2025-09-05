@@ -1,50 +1,35 @@
-# Data Contracts Management
+# Data Contracts Management com OpenMetadata
 
-Sistema open source para gerenciamento de contratos de dados usando Great Expectations e integração com OpenMetadata.
+Sistema para gerenciar contratos de dados usando OpenMetadata como interface principal.
 
-## Funcionalidades
+## Setup Rápido
 
-- 📋 Definição e validação de contratos de dados
-- 🔍 Validação automática com Great Expectations
-- 📊 Interface web para gerenciamento
-- 🔗 Integração com OpenMetadata
-- 📈 Dashboard de qualidade de dados
-- 🚀 API REST para automação
-
-## Instalação
-
+1. **Instalar OpenMetadata via Docker:**
 ```bash
-# Clone o repositório
-git clone <seu-repo>
-cd data_contracts_management
+# Baixar e rodar OpenMetadata
+docker run -d -p 8585:8585 --name openmetadata openmetadata/server:latest
+```
 
-# Instale as dependências
+2. **Instalar dependências:**
+```bash
 pip install -e .
-
-# Para desenvolvimento
-pip install -e ".[dev]"
 ```
 
-## Uso Rápido
+3. **Acessar a interface:**
+- OpenMetadata UI: http://localhost:8585
+- Login: admin / admin
 
-```bash
-# Inicie o servidor web
-uvicorn data_contracts_management.api:app --reload --port 8000
+## O que você pode fazer
 
-# Ou use o CLI
-data-contracts --help
-```
+✅ **Interface completa** - OpenMetadata já vem com UI pronta  
+✅ **Gerenciar schemas** - Definir estruturas de dados  
+✅ **Validação de qualidade** - Great Expectations integrado  
+✅ **Linhagem de dados** - Rastrear origem e destino  
+✅ **Governança** - Políticas e ownership  
 
-Acesse http://localhost:8000 para a interface web.
+## Próximos passos
 
-## Estrutura do Projeto
-
-```
-data_contracts_management/
-├── api/              # API FastAPI
-├── contracts/        # Definições de contratos
-├── expectations/     # Great Expectations configs
-├── web/             # Interface web
-├── models/          # Modelos de dados
-└── utils/           # Utilitários
-```
+1. Acesse http://localhost:8585
+2. Crie seus datasets e schemas
+3. Configure validações de qualidade
+4. Use os scripts deste projeto para automação
