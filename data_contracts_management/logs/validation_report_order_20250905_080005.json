@@ -1,0 +1,34 @@
+{
+  "is_valid": false,
+  "total_rows": 150,
+  "valid_rows": 0,
+  "invalid_rows": 150,
+  "errors": [
+    {
+      "column": "unknown",
+      "check": "dtype('string[python]')",
+      "failure_cases": "object",
+      "message": "expected series 'order_id' to have type string[python], got object"
+    },
+    {
+      "column": "unknown",
+      "check": "dtype('string[python]')",
+      "failure_cases": "object",
+      "message": "expected series 'order_date' to have type string[python], got object"
+    },
+    {
+      "column": "unknown",
+      "check": "dtype('string[python]')",
+      "failure_cases": "object",
+      "message": "expected series 'status' to have type string[python], got object"
+    }
+  ],
+  "warnings": [],
+  "timestamp": "2025-09-05T08:00:05.785379",
+  "contract_id": "contract_order_001",
+  "schema_name": "order",
+  "contract_name": "Order Data Contract",
+  "contract_owner": "sales_team@company.com",
+  "contract_status": "active",
+  "schema_version": "1.0.0"
+}

@@ -1,0 +1,52 @@
+{
+  "is_valid": false,
+  "total_rows": 10,
+  "valid_rows": 0,
+  "invalid_rows": 10,
+  "errors": [
+    {
+      "column": "unknown",
+      "check": "dtype('string[python]')",
+      "failure_cases": "object",
+      "message": "expected series 'first_name' to have type string[python], got object"
+    },
+    {
+      "column": "unknown",
+      "check": "dtype('string[python]')",
+      "failure_cases": "object",
+      "message": "expected series 'last_name' to have type string[python], got object"
+    },
+    {
+      "column": "unknown",
+      "check": "dtype('string[python]')",
+      "failure_cases": "object",
+      "message": "expected series 'email' to have type string[python], got object"
+    },
+    {
+      "column": "unknown",
+      "check": "dtype('string[python]')",
+      "failure_cases": "object",
+      "message": "expected series 'phone' to have type string[python], got object"
+    },
+    {
+      "column": "unknown",
+      "check": "dtype('string[python]')",
+      "failure_cases": "object",
+      "message": "expected series 'birth_date' to have type string[python], got object"
+    },
+    {
+      "column": "unknown",
+      "check": "dtype('string[python]')",
+      "failure_cases": "object",
+      "message": "expected series 'created_at' to have type string[python], got object"
+    }
+  ],
+  "warnings": [],
+  "timestamp": "2025-09-05T08:00:05.793053",
+  "contract_id": "contract_customer_001",
+  "schema_name": "customer",
+  "contract_name": "Customer Data Contract",
+  "contract_owner": "data_team@company.com",
+  "contract_status": "active",
+  "schema_version": "1.0.0"
+}

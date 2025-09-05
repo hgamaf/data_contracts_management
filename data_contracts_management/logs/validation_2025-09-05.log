@@ -7,3 +7,236 @@
 2025-09-05 07:56:34 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for customer_id: dtype=int64, nullable=False, checks=1
 2025-09-05 07:56:34 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: first_name (DataType.STRING)
 2025-09-05 07:56:34 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: min_length = 2
+2025-09-05 07:57:46 | INFO     | validator:__init__:22 - DataValidator initialized
+2025-09-05 07:57:46 | INFO     | validator:convert_schema_to_pandera:48 - Converting schema 'customer' to Pandera format
+2025-09-05 07:57:46 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: customer_id (DataType.INTEGER)
+2025-09-05 07:57:46 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: not_null = True
+2025-09-05 07:57:46 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: unique = True
+2025-09-05 07:57:46 | WARNING  | validator:_convert_validation_rules:117 - Unique constraint for field will be checked separately
+2025-09-05 07:57:46 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for customer_id: dtype=int64, nullable=False, checks=1
+2025-09-05 07:57:46 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: first_name (DataType.STRING)
+2025-09-05 07:57:46 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: min_length = 2
+2025-09-05 07:58:52 | INFO     | validator:__init__:22 - DataValidator initialized
+2025-09-05 07:58:52 | INFO     | validator:convert_schema_to_pandera:48 - Converting schema 'customer' to Pandera format
+2025-09-05 07:58:52 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: customer_id (DataType.INTEGER)
+2025-09-05 07:58:52 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: not_null = True
+2025-09-05 07:58:52 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: unique = True
+2025-09-05 07:58:52 | WARNING  | validator:_convert_validation_rules:117 - Unique constraint for field will be checked separately
+2025-09-05 07:58:52 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for customer_id: dtype=int64, nullable=False, checks=1
+2025-09-05 07:58:52 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: first_name (DataType.STRING)
+2025-09-05 07:58:52 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: min_length = 2
+2025-09-05 07:59:33 | INFO     | validator:__init__:22 - DataValidator initialized
+2025-09-05 07:59:33 | INFO     | validator:convert_schema_to_pandera:48 - Converting schema 'customer' to Pandera format
+2025-09-05 07:59:33 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: customer_id (DataType.INTEGER)
+2025-09-05 07:59:33 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: not_null = True
+2025-09-05 07:59:33 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: unique = True
+2025-09-05 07:59:33 | WARNING  | validator:_convert_validation_rules:117 - Unique constraint for field will be checked separately
+2025-09-05 07:59:33 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for customer_id: dtype=int64, nullable=False, checks=1
+2025-09-05 07:59:33 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: first_name (DataType.STRING)
+2025-09-05 07:59:33 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: min_length = 2
+2025-09-05 07:59:49 | INFO     | validator:__init__:22 - DataValidator initialized
+2025-09-05 07:59:49 | INFO     | validator:convert_schema_to_pandera:48 - Converting schema 'customer' to Pandera format
+2025-09-05 07:59:49 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: customer_id (DataType.INTEGER)
+2025-09-05 07:59:49 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: not_null = True
+2025-09-05 07:59:49 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: unique = True
+2025-09-05 07:59:49 | WARNING  | validator:_convert_validation_rules:119 - Unique constraint for field will be checked separately
+2025-09-05 07:59:49 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for customer_id: dtype=int64, nullable=False, checks=1
+2025-09-05 07:59:49 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: first_name (DataType.STRING)
+2025-09-05 07:59:49 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: min_length = 2
+2025-09-05 07:59:49 | DEBUG    | validator:_convert_validation_rules:103 - Adding min_length check with value: 2
+2025-09-05 08:00:05 | INFO     | validator:__init__:22 - DataValidator initialized
+2025-09-05 08:00:05 | INFO     | validator:convert_schema_to_pandera:48 - Converting schema 'customer' to Pandera format
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: customer_id (DataType.INTEGER)
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: not_null = True
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: unique = True
+2025-09-05 08:00:05 | WARNING  | validator:_convert_validation_rules:125 - Unique constraint for field will be checked separately
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for customer_id: dtype=int64, nullable=False, checks=1
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: first_name (DataType.STRING)
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: min_length = 2
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:103 - Adding min_length check with value: 2 (type: <class 'int'>)
+2025-09-05 08:00:05 | ERROR    | validator:_convert_validation_rules:107 - Error creating min_length check: At least a minimum or a maximum need to be specified. Got None.
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: max_length = 50
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:109 - Adding max_length check with value: 50 (type: <class 'int'>)
+2025-09-05 08:00:05 | ERROR    | validator:_convert_validation_rules:113 - Error creating max_length check: At least a minimum or a maximum need to be specified. Got None.
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for first_name: dtype=string, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: last_name (DataType.STRING)
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: min_length = 2
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:103 - Adding min_length check with value: 2 (type: <class 'int'>)
+2025-09-05 08:00:05 | ERROR    | validator:_convert_validation_rules:107 - Error creating min_length check: At least a minimum or a maximum need to be specified. Got None.
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: max_length = 50
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:109 - Adding max_length check with value: 50 (type: <class 'int'>)
+2025-09-05 08:00:05 | ERROR    | validator:_convert_validation_rules:113 - Error creating max_length check: At least a minimum or a maximum need to be specified. Got None.
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for last_name: dtype=string, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: email (DataType.STRING)
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: unique = True
+2025-09-05 08:00:05 | WARNING  | validator:_convert_validation_rules:125 - Unique constraint for field will be checked separately
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for email: dtype=string, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: phone (DataType.STRING)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for phone: dtype=string, nullable=True, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: birth_date (DataType.DATE)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for birth_date: dtype=string, nullable=True, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: created_at (DataType.DATETIME)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for created_at: dtype=string, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: is_active (DataType.BOOLEAN)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for is_active: dtype=bool, nullable=False, checks=0
+2025-09-05 08:00:05 | SUCCESS  | validator:convert_schema_to_pandera:77 - Successfully converted schema 'customer' with 8 columns
+2025-09-05 08:00:05 | INFO     | __main__:test_schema_conversion:121 - ✅ Successfully converted schema 'customer'
+2025-09-05 08:00:05 | INFO     | __main__:test_schema_conversion:122 -    Original fields: 8
+2025-09-05 08:00:05 | INFO     | __main__:test_schema_conversion:123 -    Pandera columns: 8
+2025-09-05 08:00:05 | DEBUG    | __main__:test_schema_conversion:127 -    customer_id: int64, nullable=False
+2025-09-05 08:00:05 | DEBUG    | __main__:test_schema_conversion:127 -    first_name: string[python], nullable=False
+2025-09-05 08:00:05 | DEBUG    | __main__:test_schema_conversion:127 -    last_name: string[python], nullable=False
+2025-09-05 08:00:05 | DEBUG    | __main__:test_schema_conversion:127 -    email: string[python], nullable=False
+2025-09-05 08:00:05 | DEBUG    | __main__:test_schema_conversion:127 -    phone: string[python], nullable=True
+2025-09-05 08:00:05 | DEBUG    | __main__:test_schema_conversion:127 -    birth_date: string[python], nullable=True
+2025-09-05 08:00:05 | DEBUG    | __main__:test_schema_conversion:127 -    created_at: string[python], nullable=False
+2025-09-05 08:00:05 | DEBUG    | __main__:test_schema_conversion:127 -    is_active: bool, nullable=False
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:13 - 🚀 Starting data validation example
+2025-09-05 08:00:05 | INFO     | validator:__init__:22 - DataValidator initialized
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:39 - 📋 Created data contracts
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:42 - 🎲 Generating valid customer data...
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:46 - 🎲 Generating valid order data...
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:51 - 🔍 Validating customer data...
+2025-09-05 08:00:05 | INFO     | validator:validate_contract_data:228 - Validating data against contract: Customer Data Contract (ID: contract_customer_001)
+2025-09-05 08:00:05 | INFO     | validator:convert_schema_to_pandera:48 - Converting schema 'customer' to Pandera format
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: customer_id (DataType.INTEGER)
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: not_null = True
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: unique = True
+2025-09-05 08:00:05 | WARNING  | validator:_convert_validation_rules:125 - Unique constraint for field will be checked separately
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for customer_id: dtype=int64, nullable=False, checks=1
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: first_name (DataType.STRING)
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: min_length = 2
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:103 - Adding min_length check with value: 2 (type: <class 'int'>)
+2025-09-05 08:00:05 | ERROR    | validator:_convert_validation_rules:107 - Error creating min_length check: At least a minimum or a maximum need to be specified. Got None.
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: max_length = 50
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:109 - Adding max_length check with value: 50 (type: <class 'int'>)
+2025-09-05 08:00:05 | ERROR    | validator:_convert_validation_rules:113 - Error creating max_length check: At least a minimum or a maximum need to be specified. Got None.
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for first_name: dtype=string, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: last_name (DataType.STRING)
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: min_length = 2
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:103 - Adding min_length check with value: 2 (type: <class 'int'>)
+2025-09-05 08:00:05 | ERROR    | validator:_convert_validation_rules:107 - Error creating min_length check: At least a minimum or a maximum need to be specified. Got None.
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: max_length = 50
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:109 - Adding max_length check with value: 50 (type: <class 'int'>)
+2025-09-05 08:00:05 | ERROR    | validator:_convert_validation_rules:113 - Error creating max_length check: At least a minimum or a maximum need to be specified. Got None.
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for last_name: dtype=string, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: email (DataType.STRING)
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: unique = True
+2025-09-05 08:00:05 | WARNING  | validator:_convert_validation_rules:125 - Unique constraint for field will be checked separately
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for email: dtype=string, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: phone (DataType.STRING)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for phone: dtype=string, nullable=True, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: birth_date (DataType.DATE)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for birth_date: dtype=string, nullable=True, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: created_at (DataType.DATETIME)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for created_at: dtype=string, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: is_active (DataType.BOOLEAN)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for is_active: dtype=bool, nullable=False, checks=0
+2025-09-05 08:00:05 | SUCCESS  | validator:convert_schema_to_pandera:77 - Successfully converted schema 'customer' with 8 columns
+2025-09-05 08:00:05 | INFO     | validator:validate_dataframe:132 - Starting validation for DataFrame with 100 rows (Contract: contract_customer_001)
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:164 - Schema validation failed (Contract: contract_customer_001)
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'first_name' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'last_name' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'email' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'phone' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'birth_date' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'created_at' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:_log_validation_summary:221 - ❌ Validation Summary for contract contract_customer_001:
+2025-09-05 08:00:05 | ERROR    | validator:_log_validation_summary:222 -    Total rows: 100
+2025-09-05 08:00:05 | ERROR    | validator:_log_validation_summary:223 -    Invalid rows: 100
+2025-09-05 08:00:05 | ERROR    | validator:_log_validation_summary:224 -    Errors: 6
+2025-09-05 08:00:05 | ERROR    | __main__:run_validation_example:57 - ❌ Customer data validation failed!
+2025-09-05 08:00:05 | INFO     | validator:save_validation_report:254 - Validation report saved to: data_contracts_management/logs/validation_report_customer_20250905_080005.json
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:63 - 🔍 Validating order data...
+2025-09-05 08:00:05 | INFO     | validator:validate_contract_data:228 - Validating data against contract: Order Data Contract (ID: contract_order_001)
+2025-09-05 08:00:05 | INFO     | validator:convert_schema_to_pandera:48 - Converting schema 'order' to Pandera format
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: order_id (DataType.STRING)
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: not_null = True
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: unique = True
+2025-09-05 08:00:05 | WARNING  | validator:_convert_validation_rules:125 - Unique constraint for field will be checked separately
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for order_id: dtype=string, nullable=False, checks=1
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: customer_id (DataType.INTEGER)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for customer_id: dtype=int64, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: order_date (DataType.DATETIME)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for order_date: dtype=string, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: total_amount (DataType.FLOAT)
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: min_value = 0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for total_amount: dtype=float64, nullable=False, checks=1
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: status (DataType.STRING)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for status: dtype=string, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: items (DataType.ARRAY)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for items: dtype=object, nullable=False, checks=0
+2025-09-05 08:00:05 | SUCCESS  | validator:convert_schema_to_pandera:77 - Successfully converted schema 'order' with 6 columns
+2025-09-05 08:00:05 | INFO     | validator:validate_dataframe:132 - Starting validation for DataFrame with 150 rows (Contract: contract_order_001)
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:164 - Schema validation failed (Contract: contract_order_001)
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'order_id' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'order_date' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'status' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:_log_validation_summary:221 - ❌ Validation Summary for contract contract_order_001:
+2025-09-05 08:00:05 | ERROR    | validator:_log_validation_summary:222 -    Total rows: 150
+2025-09-05 08:00:05 | ERROR    | validator:_log_validation_summary:223 -    Invalid rows: 150
+2025-09-05 08:00:05 | ERROR    | validator:_log_validation_summary:224 -    Errors: 3
+2025-09-05 08:00:05 | ERROR    | __main__:run_validation_example:69 - ❌ Order data validation failed!
+2025-09-05 08:00:05 | INFO     | validator:save_validation_report:254 - Validation report saved to: data_contracts_management/logs/validation_report_order_20250905_080005.json
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:75 - 🧪 Testing with invalid data...
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:87 - 🔍 Validating invalid customer data...
+2025-09-05 08:00:05 | INFO     | validator:validate_contract_data:228 - Validating data against contract: Customer Data Contract (ID: contract_customer_001)
+2025-09-05 08:00:05 | INFO     | validator:convert_schema_to_pandera:48 - Converting schema 'customer' to Pandera format
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: customer_id (DataType.INTEGER)
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: not_null = True
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: unique = True
+2025-09-05 08:00:05 | WARNING  | validator:_convert_validation_rules:125 - Unique constraint for field will be checked separately
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for customer_id: dtype=int64, nullable=False, checks=1
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: first_name (DataType.STRING)
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: min_length = 2
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:103 - Adding min_length check with value: 2 (type: <class 'int'>)
+2025-09-05 08:00:05 | ERROR    | validator:_convert_validation_rules:107 - Error creating min_length check: At least a minimum or a maximum need to be specified. Got None.
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: max_length = 50
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:109 - Adding max_length check with value: 50 (type: <class 'int'>)
+2025-09-05 08:00:05 | ERROR    | validator:_convert_validation_rules:113 - Error creating max_length check: At least a minimum or a maximum need to be specified. Got None.
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for first_name: dtype=string, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: last_name (DataType.STRING)
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: min_length = 2
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:103 - Adding min_length check with value: 2 (type: <class 'int'>)
+2025-09-05 08:00:05 | ERROR    | validator:_convert_validation_rules:107 - Error creating min_length check: At least a minimum or a maximum need to be specified. Got None.
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: max_length = 50
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:109 - Adding max_length check with value: 50 (type: <class 'int'>)
+2025-09-05 08:00:05 | ERROR    | validator:_convert_validation_rules:113 - Error creating max_length check: At least a minimum or a maximum need to be specified. Got None.
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for last_name: dtype=string, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: email (DataType.STRING)
+2025-09-05 08:00:05 | DEBUG    | validator:_convert_validation_rules:100 - Converting validation rule: unique = True
+2025-09-05 08:00:05 | WARNING  | validator:_convert_validation_rules:125 - Unique constraint for field will be checked separately
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for email: dtype=string, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: phone (DataType.STRING)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for phone: dtype=string, nullable=True, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: birth_date (DataType.DATE)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for birth_date: dtype=string, nullable=True, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: created_at (DataType.DATETIME)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for created_at: dtype=string, nullable=False, checks=0
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:53 - Processing field: is_active (DataType.BOOLEAN)
+2025-09-05 08:00:05 | DEBUG    | validator:convert_schema_to_pandera:69 - Created column for is_active: dtype=bool, nullable=False, checks=0
+2025-09-05 08:00:05 | SUCCESS  | validator:convert_schema_to_pandera:77 - Successfully converted schema 'customer' with 8 columns
+2025-09-05 08:00:05 | INFO     | validator:validate_dataframe:132 - Starting validation for DataFrame with 10 rows (Contract: contract_customer_001)
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:164 - Schema validation failed (Contract: contract_customer_001)
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'first_name' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'last_name' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'email' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'phone' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'birth_date' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:validate_dataframe:176 - Validation error in column 'unknown': expected series 'created_at' to have type string[python], got object
+2025-09-05 08:00:05 | ERROR    | validator:_log_validation_summary:221 - ❌ Validation Summary for contract contract_customer_001:
+2025-09-05 08:00:05 | ERROR    | validator:_log_validation_summary:222 -    Total rows: 10
+2025-09-05 08:00:05 | ERROR    | validator:_log_validation_summary:223 -    Invalid rows: 10
+2025-09-05 08:00:05 | ERROR    | validator:_log_validation_summary:224 -    Errors: 6
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:91 - ✅ Invalid data correctly detected!
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:92 - Found 6 validation errors
+2025-09-05 08:00:05 | INFO     | validator:save_validation_report:254 - Validation report saved to: data_contracts_management/logs/validation_report_customer_20250905_080005.json
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:98 - 📊 Validation Summary:
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:99 -    Customer validation: ❌ FAILED
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:100 -    Order validation: ❌ FAILED
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:101 -    Invalid data test: ✅ DETECTED
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:103 - 📁 Generated files:
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:104 -    Customer report: data_contracts_management/logs/validation_report_customer_20250905_080005.json
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:105 -    Order report: data_contracts_management/logs/validation_report_order_20250905_080005.json
+2025-09-05 08:00:05 | INFO     | __main__:run_validation_example:106 -    Invalid data report: data_contracts_management/logs/validation_report_customer_20250905_080005.json
+2025-09-05 08:00:05 | SUCCESS  | __main__:run_validation_example:108 - 🎉 Validation example completed!

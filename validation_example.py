@@ -23,7 +23,7 @@ def run_validation_example():
     customer_contract = DataContract(
         id="contract_customer_001",
         name="Customer Data Contract",
-        schema=customer_schema,
+        data_schema=customer_schema,
         owner="data_team@company.com",
         status="active"
     )
@@ -31,7 +31,7 @@ def run_validation_example():
     order_contract = DataContract(
         id="contract_order_001", 
         name="Order Data Contract",
-        schema=order_schema,
+        data_schema=order_schema,
         owner="sales_team@company.com",
         status="active"
     )
@@ -112,7 +112,7 @@ def test_schema_conversion():
     """Test schema conversion to Pandera."""
     logger.info("🔧 Testing schema conversion...")
     
-    validator = DataValidator()
+    validator = DataValidator(log_level="DEBUG")
     customer_schema = create_customer_schema()
     
     # Convert to Pandera

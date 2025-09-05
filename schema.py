@@ -51,7 +51,7 @@ class DataContract(BaseModel):
     """Data contract containing schema and metadata."""
     id: str = Field(..., description="Unique contract identifier")
     name: str = Field(..., description="Contract name")
-    schema: DataSchema = Field(..., description="Data schema definition")
+    data_schema: DataSchema = Field(..., description="Data schema definition")
     owner: str = Field(..., description="Contract owner")
     status: Literal["draft", "active", "deprecated"] = Field("draft", description="Contract status")
     created_at: datetime = Field(default_factory=datetime.now)

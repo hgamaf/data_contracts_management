@@ -99,15 +99,23 @@ class DataValidator:
         for rule in validation_rules:
             logger.debug(f"Converting validation rule: {rule.type} = {rule.value}")
             
-            if rule.type == "min_length":
-                checks.append(Check.str_length(min_val=rule.value))
-            elif rule.type == "max_length":
-                checks.append(Check.str_length(max_val=rule.value))
-            elif rule.type == "min_value":
+            if rule.type == "min_length" and rule.value is not None:
+                logger.debug(f"Adding min_length check with value: {rule.value} (type: {type(rule.value)})")
+                try:
+                    checks.append(Check.str_length(min_val=int(rule.value)))
+                except Exception as e:
+                    logger.error(f"Error creating min_length check: {e}")
+            elif rule.type == "max_length" and rule.value is not None:
+                logger.debug(f"Adding max_length check with value: {rule.value} (type: {type(rule.value)})")
+                try:
+                    checks.append(Check.str_length(max_val=int(rule.value)))
+                except Exception as e:
+                    logger.error(f"Error creating max_length check: {e}")
+            elif rule.type == "min_value" and rule.value is not None:
                 checks.append(Check.greater_than_or_equal_to(rule.value))
-            elif rule.type == "max_value":
+            elif rule.type == "max_value" and rule.value is not None:
                 checks.append(Check.less_than_or_equal_to(rule.value))
-            elif rule.type == "pattern":
+            elif rule.type == "pattern" and rule.value is not None:
                 checks.append(Check.str_matches(rule.value))
             elif rule.type == "not_null":
                 checks.append(Check.notin([None, ""]))
@@ -220,7 +228,7 @@ class DataValidator:
         logger.info(f"Validating data against contract: {contract.name} (ID: {contract.id})")
         
         # Convert schema to Pandera
-        pandera_schema = self.convert_schema_to_pandera(contract.schema)
+        pandera_schema = self.convert_schema_to_pandera(contract.data_schema)
         
         # Validate
         is_valid, result = self.validate_dataframe(df, pandera_schema, contract.id)
@@ -229,7 +237,7 @@ class DataValidator:
         result["contract_name"] = contract.name
         result["contract_owner"] = contract.owner
         result["contract_status"] = contract.status
-        result["schema_version"] = contract.schema.version
+        result["schema_version"] = contract.data_schema.version
         
         return is_valid, result
     
