@@ -1,0 +1,168 @@
+{
+  "expectations": [
+    {
+      "id": "3fa5bfa9-7945-4f27-83e1-ec7e69ea6f7c",
+      "kwargs": {
+        "max_value": 200,
+        "min_value": 50
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_table_row_count_to_be_between"
+    },
+    {
+      "id": "eb6c5d20-3b72-4ec2-a1e8-8df8547b0e58",
+      "kwargs": {
+        "value": 8
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_table_column_count_to_equal"
+    },
+    {
+      "id": "6eb6914b-d368-4c4b-b456-c0e0ac383c3c",
+      "kwargs": {
+        "column": "is_active"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "ded178ef-f4e8-4b23-9c48-e2da08427d8e",
+      "kwargs": {
+        "column": "customer_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "d7631b5b-e0e6-438a-ae9e-fddce96118ff",
+      "kwargs": {
+        "column": "first_name"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "3aeb5e27-dd12-451e-bcc5-fc1c82e7d839",
+      "kwargs": {
+        "column": "last_name"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "c15b467b-d366-44c6-9ebd-4120d0249774",
+      "kwargs": {
+        "column": "email"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "56433fbe-d0ce-4a7b-803f-3c7050efd8ab",
+      "kwargs": {
+        "column": "created_at"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "67c9119c-98de-428e-ba8f-bafe77e7ffef",
+      "kwargs": {
+        "column": "is_active"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "54e696e5-4c9e-40a6-8d95-6963468feec1",
+      "kwargs": {
+        "column": "customer_id",
+        "type_": "int64"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "f31533f2-f121-4d28-80df-d1f30fab4a5d",
+      "kwargs": {
+        "column": "is_active",
+        "type_": "bool"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "5b5d1d2e-722d-426e-a8c0-96b506bc977a",
+      "kwargs": {
+        "column": "customer_id",
+        "max_value": 1000000.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "d5e468cf-ab98-4d3d-acd3-26e5b344357f",
+      "kwargs": {
+        "column": "is_active",
+        "value_set": [
+          true,
+          false
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "e7455123-f1e8-422f-8904-2a5369f87da9",
+      "kwargs": {
+        "column": "first_name",
+        "max_value": 50,
+        "min_value": 2
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_value_lengths_to_be_between"
+    },
+    {
+      "id": "375c5990-fb40-4fc0-8691-a89caa797ad8",
+      "kwargs": {
+        "column": "last_name",
+        "max_value": 50,
+        "min_value": 2
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_value_lengths_to_be_between"
+    },
+    {
+      "id": "fa1b1e52-32fc-4ee0-999f-4393e9fce4a3",
+      "kwargs": {
+        "column": "email",
+        "regex": "^[^@]+@[^@]+\\.[^@]+$"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_match_regex"
+    }
+  ],
+  "id": "249c43bb-628f-436e-bb2d-1d86fbcedf43",
+  "meta": {
+    "great_expectations_version": "1.5.11"
+  },
+  "name": "customer_suite_20250905_081811",
+  "notes": null
+}
